@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mohammad&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Mohammad&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Mohammad Monfared</copyright>
+    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gestures in Appium - Part 1 - History | Element/Display Rectangular | W3C ActionsAPI | Setup</title>
+      <link>http://localhost:1313/posts/1-appium-gestures-part1/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/1-appium-gestures-part1/</guid>
+      <description>What is Appium? Appium&#xD;is an open-source project and ecosystem designed to facilitate UI automation for a wide range of app platforms, including:&#xA;Mobile: iOS, Android, Tizen Browser: Chrome, Firefox, Safari Desktop: macOS, Windows TV: Roku, tvOS, Android TV, Samsung, and more. In other words, Appium does the same as selenium but for mobile applications! With the release of Appium 2.0, it aims to achieve the following primary goals:&#xA;Make platform-specific automation capabilities available under a cross-platform, standard API (Compatible with W3C WebDriver protocol).</description>
+    </item>
+  </channel>
+</rss>
