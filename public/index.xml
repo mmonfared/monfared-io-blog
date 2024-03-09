@@ -14,7 +14,7 @@
       <link>http://localhost:1313/posts/1-appium-gestures-part1/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/posts/1-appium-gestures-part1/</guid>
-      <description>What is Appium? Appium&#xD;is an open-source project and ecosystem designed to facilitate UI automation for a wide range of app platforms, including:&#xA;Mobile: iOS, Android, Tizen Browser: Chrome, Firefox, Safari Desktop: macOS, Windows TV: Roku, tvOS, Android TV, Samsung, and more. In other words, Appium does the same as selenium but for mobile applications! With the release of Appium 2.0, it aims to achieve the following primary goals:&#xA;Make platform-specific automation capabilities available under a cross-platform, standard API (Compatible with W3C WebDriver protocol).</description>
+      <description>What is Appium? Appium is an open-source project and ecosystem designed to facilitate UI automation for a wide range of app platforms, including:&#xA;Mobile: iOS, Android, Tizen Browser: Chrome, Firefox, Safari Desktop: macOS, Windows TV: Roku, tvOS, Android TV, Samsung, and more. In other words, Appium does the same as selenium but for mobile applications! With the release of Appium 2.0, it aims to achieve the following primary goals:&#xA;Make platform-specific automation capabilities available under a cross-platform, standard API (Compatible with W3C WebDriver protocol).</description>
     </item>
   </channel>
 </rss>
