@@ -16,15 +16,57 @@ In other words, Appium does the same as selenium but for mobile applications! Wi
 2. **Allow easy access** to this API from **any programming language.**
 3. Provide tools for **convenient community development of Appium extensions.**
 
-<div style="display: block; margin: 0 auto; max-width: 100%;">
+<!-- Aligned left figure -->
+<!-- ![Some mobile gestures](./images/1-appium-arch.webp "Some mobile gestures") -->
 
-![Appium Architecture](/images/1-appium-arch.webp "Appium Architecture")
+<!-- Figure - 100% width - type 1--->
 
-</div>
+<!-- <figure style="text-align: center;">
+    <img src="./images/1-appium-arch.webp" style="width: 100%;" title="Appium Architecture">
+    <figcaption>Appium Architecture</figcaption>
+</figure> -->
 
-<p align="center" width="100%">
-    <img src="/images/1-appium-arch.webp">
-</p>
+<!-- Figure - 100% width - type 2-->
+
+<!-- <figure style="text-align: center;">
+    <img src="./images/1-appium-arch.webp" style="display: block; margin: 0 auto; width: 100%;" title="Appium Architecture">
+    <figcaption>Appium Architecture</figcaption>
+</figure> -->
+
+<!-- Figure - 50% Width -->
+<!-- <figure style="text-align: center;">
+    <img src="./images/1-appium-arch.webp" title="Appium Architecture" style="display: block; margin: 0 auto; width: 50%;">
+    <figcaption>Appium Architecture</figcaption>
+</figure>  -->
+
+<!-- Figure - Actual image size -->
+<!-- <figure style="text-align: center;">
+    <img src="./images/1-appium-arch.webp" title="Appium Architecture" style="display: block; margin: 0 auto;">
+    <figcaption>Appium Architecture</figcaption>
+</figure> -->
+
+<!-- Without image description - Actual size  -->
+<!-- <p align="center" width="100%">
+    <img src="./images/1-appium-arch.webp" title="Appium Architecture">
+</p> -->
+
+<!-- Without image description - full size (type 1)  -->
+<!-- <p align="center" width="100%">
+    <img src="./images/1-appium-arch.webp" style="width: 100%" title="Appium Architecture">
+</p> -->
+
+<!-- Without image description - full size (type 2)  -->
+<!-- <p align="center" width="100%">
+    <img src="./images/1-appium-arch.webp" style="display: block; margin: 0 auto; width: 100%;" title="Appium Architecture">
+</p> -->
+
+
+<figure style="text-align: center;">
+    <img src="./images/1-appium-arch.webp" style="display: block; margin: 0 auto; width: 100%;">
+    <figcaption>Appium Architecture</figcaption>
+</figure>
+
+
 
 **Appium** leverages the **WebDriver specification** as its API (Including groundbreaking [**Actions API**](https://w3c.github.io/webdriver/#actions) for its Gestures actions). This choice was influenced by Selenium, a long-standing pioneer in UI automation for web browsers. Selenium's stable API for browser automation served as a solid foundation, and Appium extended it to support mobile apps (iOS and Android). By adopting the WebDriver spec, Appium ensures a unified approach to automation across platforms.
 
@@ -40,7 +82,9 @@ In this series of articles, I will explain in detail how to use Appium to perfor
 
 You will not find all of them in one place except here! So let's get started 🚀
 
-![Some mobile gestures](/images/1-gestures.gif "Some mobile gestures")
+<p align="center" width="100%">
+    <img src="./images/1-gestures.gif ">
+</p>
 
 I'll show how to do the gestures in "Android "and in later articles, I will write about them in iOS. 
 
@@ -129,7 +173,10 @@ import desired_caps
 Doing precise gestures on the display needs interaction  with coordination and calculations related to the positions of the elements or display size. 
 Before diving into gestures we should be aware of them.
 
-![Element Rectangular](/images/1-element-rect.webp "Element Rectangular")
+<figure style="text-align: center;">
+    <img src="./images/1-element-rect.webp" style="display: block; margin: 0 auto; width: 100%;">
+    <figcaption>Element Rectangular</figcaption>
+</figure>
 
 ### Display Rectangular:
 
@@ -172,15 +219,23 @@ Ok, let's do the very first gesture which is tapping!
 
 Let's take a quick look at the libraries and history of gesture commands. Selenium has its own libraries for mouse actions called "TouchActions" and "ActionChains". While it can handle almost all mouse actions on the web, it may not be completely useful for mobile gesture actions. Therefore, the Appium team had to develop libraries called "TouchAction" and "MultiAction". Let's take a closer look at the comments written by the Appium team at the top of the TouchAction class.
 
-![touch-action.py comments](/images/1-touch-action-comment.webp "touch-action.py comments")
+<p align="center" width="100%">
+    <img src="./images/1-touch-action-comment.webp" style="display: block; margin: 0 auto; width: 100%;">
+</p>
 
 It worked for many years, but in 2018, WebDriver became a W3C standard and introduced the Actions API in section 15 of its specifications. Selenium and its sub-projects, including Appium, must follow these specifications.
 
-![W3C Webdriver Protocol - The Actions API ](/images/1-w3c-webdriver-protocol.webp "W3C Webdriver Protocol -The Actions API")
+<figure style="text-align: center;">
+    <img src="./images/1-w3c-webdriver-protocol.webp" style="display: block; margin: 0 auto; width: 100%;" title="W3C Webdriver Protocol -The Actions API">
+    <figcaption>W3C Webdriver Protocol - The Actions API</figcaption>
+</figure>
 
 By introducing the concepts of Multiple Pointer Inputs and Ticks, it became possible to create almost any gesture by simulating parallel sequences. For instance, you can make a zoom gesture by moving two fingers in opposite directions. You can even draw on the screen! The Appium team explained this concept very well in [an article](https://appiumpro.com/editions/29-automating-complex-gestures-with-the-w3c-actions-api), which you can read to get a better understanding.
 
-![AppiumPro Blog - FingerPaint ](/images/1-appiumpro-face-gestures-post.gif "Source: https://appiumpro.com/editions/29-automating-complex-gestures-with-the-w3c-actions-api")
+<figure style="text-align: center;">
+    <img src="./images/1-appiumpro-face-gestures-post.gif" title="AppiumPro Blog - FingerPaint" style="display: block; margin: 0 auto; width: 50%;">
+    <figcaption>Source: https://appiumpro.com/editions/29-automating-complex-gestures-with-the-w3c-actions-api</figcaption>
+</figure>
 
 ## W3C Mobile Gestures Commands
 We know that in Selenium/Appium, JavaScript commands can be executed using `driver.execute_script()` , so it opens the door to leveraging the power of JavaScript to perform complex tasks like gestures in the page or app. Thanks to the Appium team, we have [a range of commands](https://github.com/appium/appium-uiautomator2-driver/blob/master/docs/android-mobile-gestures.md) implemented to perform gestures and they work well in most cases.

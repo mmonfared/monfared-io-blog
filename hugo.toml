@@ -71,6 +71,9 @@ name = "About"
 pageRef = "/about"
 weight = 10
 
+[markup]
+  _merge = "deep"
+  
 [taxonomies]
 category = "categories"
 tag = "tags"
