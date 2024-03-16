@@ -1,5 +1,5 @@
 +++
-title = 'Gestures in Appium - Part 1 - History | Element/Display Rectangular | W3C ActionsAPI | Setup'
+title = 'Gestures in Appium - Part 1 - History | Element/Display Rectangular | W3C ActionsAPI'
 date = 2024-01-14T07:07:07+01:00
 draft = false
 +++

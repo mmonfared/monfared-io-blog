@@ -1,0 +1,11 @@
+1. gestures-in-appium-part1-history-rectangular-w3c-actions
+2. gestures-in-appium-part2-tap-double-tap-multi-finger
+3. gestures-in-appium-part3-press-and-hold-long-press
+4. gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview
+5. gestures-in-appium-part5-swipe-vertical-horizontal
+6. gestures-in-appium-part6-flick-fling
+7. gestures-in-appium-part7-drag-and-drop
+8. gestures-in-appium-part8-zoom-pinch
+9. gestures-in-appium-part9-plugin
+10. gestures-in-appium-part10-perform-gestures-in-mobile-web-browsers
+11. gestures-in-appium-part11-use-appium-inspector-to-create-gestures
