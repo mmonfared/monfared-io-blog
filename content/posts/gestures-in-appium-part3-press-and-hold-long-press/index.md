@@ -1,6 +1,6 @@
 +++
 title = 'Gestures in Appium - Part 3- Press and Hold (Long Press)'
-date = 2024-01-19T08:00:00+01:00
+date = 2024-03-04T08:00:00+01:00
 draft = false
 tags = [
     "appium",

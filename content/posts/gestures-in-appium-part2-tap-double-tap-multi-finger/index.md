@@ -1,6 +1,6 @@
 +++
 title = 'Gestures in Appium - Part 2 - Tap | Double Tap | Multi-finger Tap'
-date = 2024-01-15T08:00:00+01:00
+date = 2024-03-03T08:00:00+01:00
 draft = false
 tags = [
     "appium",
