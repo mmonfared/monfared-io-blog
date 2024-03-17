@@ -77,7 +77,7 @@ So in the given example, first I found the starting and ending elements. Two sim
 buttons_el = driver.find_element(by=AppiumBy.ACCESSIBILITY_ID, value='Buttons')
 grid_el = driver.find_element(by=AppiumBy.ACCESSIBILITY_ID, value='Grid')
 ```
-And then using their `location` property which gives me the coordination pair of the elements, (explained in [Part 1](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions)). I perform the Swipe Up gesture.
+And then using their `location` property which gives me the coordination pair of the elements, (explained in [Part 1](https://blog.monfared.io/posts/gestures-in-appium-part1-history-rectangular-w3c-actions)). I perform the Swipe Up gesture.
 
 Then I performed **Swipe Down.**
 
@@ -156,7 +156,7 @@ In W3C Mobile Gestures Commands, we have `mobile: swipeGesture`, which like most
 - **percent**: The size of the swipe as a percentage of the swipe area size. Valid values must be float numbers in range 0..1, where 1.0 is 100%. Mandatory value.
 speed: The speed at which to perform this gesture in pixels per second. The value must not be negative. The default value is `5000 * displayDensity`
 
-So we either should pass the element object (found by `driver.find()`) or define the swiping bounding area which I explained well in the [previous part](https://blog.monfared.io/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview). Also, the `percent` which is the percentage of swiping as a float number (e.g. 0.2) is a mandatory value. There is no default. 
+So we either should pass the element object (found by `driver.find()`) or define the swiping bounding area which I explained well in the [previous part](https://blog.monfared.io/posts/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview). Also, the `percent` which is the percentage of swiping as a float number (e.g. 0.2) is a mandatory value. There is no default. 
 **Important Note:** I should reiterate in this post as well that if you pass an `elementId` to the command, it will use the element's bounds to determine the swiping area. So in our example, I passed the parent class of these elements (`list_view`) to be able to scroll the entire list. If I were to use any item from the list here instead of their parent element, it would limit the swiping area to only one row (between two horizontal lines).
 
 ## Swipe Left and Right using W3C Actions API
@@ -242,9 +242,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will cover the **Flick (Fling)** gesture.
 
-*Previous:* [Part 4 - Scroll (Vertical/Horizontal/Search and Scroll Element IntoView)](https://blog.monfared.io/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview)
+*Previous:* [Part 4 - Scroll (Vertical/Horizontal/Search and Scroll Element IntoView)](https://blog.monfared.io/posts/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview)
 
-*Next:* [Part 6 - Flick (Fling)](https://blog.monfared.io/gestures-in-appium-part6-flick-fling)
+*Next:* [Part 6 - Flick (Fling)](https://blog.monfared.io/posts/gestures-in-appium-part6-flick-fling)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

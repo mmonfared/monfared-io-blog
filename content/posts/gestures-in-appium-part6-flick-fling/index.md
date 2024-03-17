@@ -96,9 +96,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will cover the Drag-and-Drop gesture.
 
-*Previous:* [Part 5 - Swipe (Vertical/Horizontal)](https://blog.monfared.io/gestures-in-appium-part5-swipe-vertical-horizontal)
+*Previous:* [Part 5 - Swipe (Vertical/Horizontal)](https://blog.monfared.io/posts/gestures-in-appium-part5-swipe-vertical-horizontal)
 
-*Next:* [Part 7 - Drag and Drop](https://blog.monfared.io/gestures-in-appium-part7-drag-and-drop)
+*Next:* [Part 7 - Drag and Drop](https://blog.monfared.io/posts/gestures-in-appium-part7-drag-and-drop)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

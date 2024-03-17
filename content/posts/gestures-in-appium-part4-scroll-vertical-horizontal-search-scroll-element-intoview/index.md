@@ -102,7 +102,7 @@ As mentioned before, performing actions with mobile gestures commands is easy, m
 
 Now that we understand what the scrollable area is, We should know that there are two ways to define the scrollable area for mobile gesture commands like Scroll, Swipe, and Zoom (Pinch):
 
-1. Pass the element object (`elementId`), and in this case, the bounding area would be the element bounds (as explained in [Part 1](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions)).
+1. Pass the element object (`elementId`), and in this case, the bounding area would be the element bounds (as explained in [Part 1](https://blog.monfared.io/posts/gestures-in-appium-part1-history-rectangular-w3c-actions)).
 Set the `top`, `left`, `width` and `height` values for it (in pixels), which is shown in the following figure:
 
 <figure style="text-align: center;">
@@ -425,9 +425,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will cover the Swipe gesture.
 
-**Previous:** [Part 3 - Press and Hold (Long Press)](https://blog.monfared.io/gestures-in-appium-part3-press-and-hold-long-press)
+**Previous:** [Part 3 - Press and Hold (Long Press)](https://blog.monfared.io/posts/gestures-in-appium-part3-press-and-hold-long-press)
 
-**Next:** [Part 5 - Swipe (Vertical/Horizontal)](https://blog.monfared.io/gestures-in-appium-part5-swipe-vertical-horizontal)
+**Next:** [Part 5 - Swipe (Vertical/Horizontal)](https://blog.monfared.io/posts/gestures-in-appium-part5-swipe-vertical-horizontal)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

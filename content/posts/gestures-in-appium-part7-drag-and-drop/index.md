@@ -98,9 +98,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will cover the Pinch (Zoom) gesture.
 
-*Previous:* [Part 6 - Flick (Fling)](https://blog.monfared.io/gestures-in-appium-part6-flick-fling)
+*Previous:* [Part 6 - Flick (Fling)](https://blog.monfared.io/posts/gestures-in-appium-part6-flick-fling)
 
-*Next:* [Part 8 - Zoom (Pinch)](https://blog.monfared.io/gestures-in-appium-part8-zoom-pinch)
+*Next:* [Part 8 - Zoom (Pinch)](https://blog.monfared.io/posts/gestures-in-appium-part8-zoom-pinch)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

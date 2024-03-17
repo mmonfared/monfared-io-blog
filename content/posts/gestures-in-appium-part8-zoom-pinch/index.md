@@ -82,11 +82,11 @@ driver.execute_script('mobile: pinchCloseGesture', {
     'percent': 1,
 })
 ``` 
-As you can see, there are two commands in W3C Mobile Actions to achieve this. `mobile: pinchOpenGesture` and `mobile: pinchCloseGesture`. Like most of the other commands we've covered so far, you should either pass the element to be pinched or define the pinch bounding area using a combination of `left`, `top`, `width` and `height` arguments. If you don't have any idea what the pinch/scroll/swipe bounding area is, please refer to [Part 4](https://blog.monfared.io/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview) where I explained it in detail.
+As you can see, there are two commands in W3C Mobile Actions to achieve this. `mobile: pinchOpenGesture` and `mobile: pinchCloseGesture`. Like most of the other commands we've covered so far, you should either pass the element to be pinched or define the pinch bounding area using a combination of `left`, `top`, `width` and `height` arguments. If you don't have any idea what the pinch/scroll/swipe bounding area is, please refer to [Part 4](https://blog.monfared.io/posts/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview) where I explained it in detail.
 
 ## Zoom (Pinch) In/Out using Actions API - W3C
 
-So far we have utilized previously created gesture methods in `ActionHelpers `. However, as mentioned in the [previous part](https://blog.monfared.io/gestures-in-appium-part7-drag-and-drop), it doesn't include  any gesture for pinching yet. Actually, `ActionHelper` class is just a (good and standard) sample of how we can create gestures using W3C Actions API. As noted in [Part 1](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions), we are not limited, we can create any gestures we can imagine using the W3C Actions API. 
+So far we have utilized previously created gesture methods in `ActionHelpers `. However, as mentioned in the [previous part](https://blog.monfared.io/posts/gestures-in-appium-part7-drag-and-drop), it doesn't include  any gesture for pinching yet. Actually, `ActionHelper` class is just a (good and standard) sample of how we can create gestures using W3C Actions API. As noted in [Part 1](https://blog.monfared.io/posts/gestures-in-appium-part1-history-rectangular-w3c-actions), we are not limited, we can create any gestures we can imagine using the W3C Actions API. 
 
 With this understanding, I'm going to implement our Zoom In/out (Pinch Open/Close) methods using W3C Actions API. Let's first take a look at the final code, and I will provide a detailed explanation afterward.
 
@@ -179,14 +179,14 @@ actions.w3c_actions.devices = []
 ``` 
 Now we need two fingers! In the following code, `actions` is our instance of `ActionChains` class,  and `w3c_actions` means we are going to use W3C Actions API. But what is `add_pointer_input` ? 
 
-As explained in [W3C Actions API](https://w3c.github.io/webdriver/#actions) Standard and [Part 1](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions) of this series, we have 3 types of input: (`key`, `pointer`, `wheel`). We should use `pointer` since it is neither a Keyboard nor a Mouse Wheel. Our input is going to be a pointer. Now, for pointers, we also have three types: (`touch`, `pen`, `mouse`). So we use `touch` input since we are going to perform actions by touching the screen, not by a Pen or a Mouse connected.
+As explained in [W3C Actions API](https://w3c.github.io/webdriver/#actions) Standard and [Part 1](https://blog.monfared.io/posts/gestures-in-appium-part1-history-rectangular-w3c-actions) of this series, we have 3 types of input: (`key`, `pointer`, `wheel`). We should use `pointer` since it is neither a Keyboard nor a Mouse Wheel. Our input is going to be a pointer. Now, for pointers, we also have three types: (`touch`, `pen`, `mouse`). So we use `touch` input since we are going to perform actions by touching the screen, not by a Pen or a Mouse connected.
 
 ```python
 # Define two touch pointers (fingers)
 finger1 = actions.w3c_actions.add_pointer_input('touch', 'finger1')
 finger2 = actions.w3c_actions.add_pointer_input('touch', 'finger2')
 ```
-Ok, now we actually need to perform a drag and drop with each finger. One to the left and one to the right. As mentioned in the [previous part](https://blog.monfared.io/gestures-in-appium-part7-drag-and-drop), drag and drop means (move to A > hold > move to B> release). 
+Ok, now we actually need to perform a drag and drop with each finger. One to the left and one to the right. As mentioned in the [previous part](https://blog.monfared.io/posts/gestures-in-appium-part7-drag-and-drop), drag and drop means (move to A > hold > move to B> release). 
 
 However, we should do them together somehow. We can't perform one finger's gesture and then the next one after it. They should be performed simultaneously. That's why we have the `perform()` method in `ActionChains` class. We define all our actions and then perform them all together.
 
@@ -264,9 +264,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will talk about a Plugin available for performing gestures.
 
-*Previous:* [Part 7 - Drag and Drop](https://blog.monfared.io/gestures-in-appium-part7-drag-and-drop)
+*Previous:* [Part 7 - Drag and Drop](https://blog.monfared.io/posts/gestures-in-appium-part7-drag-and-drop)
 
-*Next:* [Part 9 - Gestures Plugin](https://blog.monfared.io/gestures-in-appium-part9-plugin)
+*Next:* [Part 9 - Gestures Plugin](https://blog.monfared.io/posts/gestures-in-appium-part9-plugin)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

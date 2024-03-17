@@ -49,7 +49,7 @@ In Appium Inspector, you can create as many pointers as you want to represent th
 
 ## Adding Actions
 
-As mentioned in [Part 8](https://blog.monfared.io/gestures-in-appium-part8-zoom-pinch), we should perform a drag for each finger in the opposite direction (Move > Pointer Down > Move > Pointer Up). 
+As mentioned in [Part 8](https://blog.monfared.io/posts/gestures-in-appium-part8-zoom-pinch), we should perform a drag for each finger in the opposite direction (Move > Pointer Down > Move > Pointer Up). 
 
 For each action, we add an action card and then we set the Action Type. Next, we should choose the points on the map. It can be a percentage of the screen bonding area (**%**) or simply coordinates in pixels (**px**). You can see there is a button on the app to switch between these units. You can also type them manually (when you move the mouse, on the left top of the screen, the current hover coordinates are shown). Additionally, we can set **Duration** in milliseconds and **left/right** button if applicable, which you can see in the action card.
 
@@ -79,7 +79,7 @@ At the end, you'll see a timeline for each finger, which shows the steps of the 
     <figcaption>Appium Gestures Builder - Timeline</figcaption>
 </figure>
 
-To fine-tune the gesture, you may manually change the values of the coordinates. We can set all `y` coordinates equal to each other (as explained in [Part 8](https://blog.monfared.io/gestures-in-appium-part8-zoom-pinch)) and make the drag distance of each finger equal but in opposite directions. For example, `+400px` and `-400px`.
+To fine-tune the gesture, you may manually change the values of the coordinates. We can set all `y` coordinates equal to each other (as explained in [Part 8](https://blog.monfared.io/posts/gestures-in-appium-part8-zoom-pinch)) and make the drag distance of each finger equal but in opposite directions. For example, `+400px` and `-400px`.
 
 In my case, I changed them to the following:
 
@@ -117,7 +117,7 @@ You can run the Gesture by clicking the Play button located in the Builder panel
 
 Thank you for reading the final part of the "**Gestures in Appium**" series. I hope it was helpful for you.
 
-*Previous*: [Part 10 - Perform gestures in Mobile Web Browsers](https://blog.monfared.io/gestures-in-appium-part10-perform-gestures-in-mobile-web-browsers)
+*Previous*: [Part 10 - Perform gestures in Mobile Web Browsers](https://blog.monfared.io/posts/gestures-in-appium-part10-perform-gestures-in-mobile-web-browsers)
 
 If you enjoyed the post, please leave your reactions, comments, and questions. Your feedback is greatly appreciated!
 

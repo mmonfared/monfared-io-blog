@@ -105,9 +105,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will see how we can perform gestures in Mobile Web Browsers.
 
-*Previous*: [Part 8 - Zoom (Pinch)](https://blog.monfared.io/gestures-in-appium-part8-zoom-pinch)
+*Previous*: [Part 8 - Zoom (Pinch)](https://blog.monfared.io/posts/gestures-in-appium-part8-zoom-pinch)
 
-*Next*: [Part 10 - Perform gestures in Mobile Web Browsers](https://blog.monfared.io/gestures-in-appium-part10-perform-gestures-in-mobile-web-browsers)
+*Next*: [Part 10 - Perform gestures in Mobile Web Browsers](https://blog.monfared.io/posts/gestures-in-appium-part10-perform-gestures-in-mobile-web-browsers)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

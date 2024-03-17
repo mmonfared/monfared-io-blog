@@ -218,7 +218,7 @@ print(text_el.get_attribute('text')) # This is a test \n This is a test
 ```
 ## Double Tap using W3C Mobile Gestures Commands
 
-As mentioned in [Part 1](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions), the `Mobile Gestures Commands` are not only rich but also work perfectly in most cases, making them my favorite! Let's see how simple it is to perform a double tap using these commands:
+As mentioned in [Part 1](https://blog.monfared.io/posts/gestures-in-appium-part1-history-rectangular-w3c-actions), the `Mobile Gestures Commands` are not only rich but also work perfectly in most cases, making them my favorite! Let's see how simple it is to perform a double tap using these commands:
 
 ```python
 from appium import webdriver
@@ -246,9 +246,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will talk about the **Press and Hold (Long-Press)** gesture. 
 
-*Previous*: [Part 1 - History | Element/Display Rectangular | W3C ActionsAPI](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions)
+*Previous*: [Part 1 - History | Element/Display Rectangular | W3C ActionsAPI](https://blog.monfared.io/posts/gestures-in-appium-part1-history-rectangular-w3c-actions)
 
-*Next*: [Part 3 - Press and Hold (Long Press)](https://blog.monfared.io/gestures-in-appium-part3-press-and-hold-long-press)
+*Next*: [Part 3 - Press and Hold (Long Press)](https://blog.monfared.io/posts/gestures-in-appium-part3-press-and-hold-long-press)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

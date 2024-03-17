@@ -83,7 +83,7 @@ First, we create an instance of the `ActionChains` class:
 ```python
 actions = ActionChains(driver)
 ``` 
-Next, we define our gesture steps. We choose `w3c_actions` to build our W3C-compatible gesture, followed by the `pointer_action` property since our input is a Pointer (left/right click of mouse, or touch), not a Mouse Wheel or Keyboard. I explained this `inputs` in detail in [Part 8](https://blog.monfared.io/gestures-in-appium-part8-zoom-pinch). Ending with actions for each step.
+Next, we define our gesture steps. We choose `w3c_actions` to build our W3C-compatible gesture, followed by the `pointer_action` property since our input is a Pointer (left/right click of mouse, or touch), not a Mouse Wheel or Keyboard. I explained this `inputs` in detail in [Part 8](https://blog.monfared.io/posts/gestures-in-appium-part8-zoom-pinch). Ending with actions for each step.
 
 ```python
 actions.w3c_actions.pointer_action.click_and_hold(el1)
@@ -100,9 +100,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article (which is the last one of this series), we will explore an interesting feature of **Appium Inspector** that is used to create mobile gestures!
 
-*Previous*: [Part 9 - Gestures Plugin](https://blog.monfared.io/gestures-in-appium-part9-plugin)
+*Previous*: [Part 9 - Gestures Plugin](https://blog.monfared.io/posts/gestures-in-appium-part9-plugin)
 
-*Next*: [Part 11 - Use Appium Inspector to Create Gestures](https://blog.monfared.io/gestures-in-appium-part11-use-appium-inspector-to-create-gestures)
+*Next*: [Part 11 - Use Appium Inspector to Create Gestures](https://blog.monfared.io/posts/gestures-in-appium-part11-use-appium-inspector-to-create-gestures)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 
