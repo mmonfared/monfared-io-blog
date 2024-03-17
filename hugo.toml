@@ -18,6 +18,19 @@ logo = "logo.webp"
 since = 2024
 poweredby = true
 
+[params.giscus]
+  enabled = true
+  repo = "mmonfared/monfared-io-blog-comments"
+  repoID = "R_kgDOLhpt_w"
+  category = "Announcements"
+  categoryID = "DIC_kwDOLhpt_84CeCYR"
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  lang = "en"
+
 [params.social_media]
 
 [[params.social_media.items]]
