@@ -105,9 +105,10 @@ Now that we understand what the scrollable area is, We should know that there ar
 1. Pass the element object (`elementId`), and in this case, the bounding area would be the element bounds (as explained in [Part 1](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions)).
 Set the `top`, `left`, `width` and `height` values for it (in pixels), which is shown in the following figure:
 
-<p align="center" width="100%">
-    <img src="./images/scroll-bounding-area.png" style="width: 50%" title="Scroll Bounding Area">
-</p>
+<figure style="text-align: center;">
+    <img src="./images/scroll-bounding-area.png" style="display: block; margin: 0 auto; width: 50%;" title="Scroll Bounding Area">
+    <figcaption>Scroll Bounding Area</figcaption>
+</figure>
 
 **Important Note:** As mentioned just now, if you pass an **elementId** to the command, it will use the element's bounds to determine the scrolling area. So in our example, I passed the parent class of these elements (**list_view**) to be able to scroll the entire list. If I were to use any item from the list here instead of their parent element, it would limit the scrolling area to only one row (between two horizontal lines).
 

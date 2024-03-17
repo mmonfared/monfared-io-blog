@@ -25,7 +25,7 @@ If you are not familiar with the differences between these gestures, please refe
 ## Flick (Fling) using W3C Actions API
 
 <p align="center" width="100%">
-    <img src="./images/flick-vertically.gif" style="width: 50%" title="Flick Up and Down">
+    <img src="./images/flick-vertically.gif" style="width: 50%" title="Flick Vertically in Appium">
 </p>
 
 ```python

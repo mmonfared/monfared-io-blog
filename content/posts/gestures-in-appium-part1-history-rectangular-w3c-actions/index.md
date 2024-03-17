@@ -181,9 +181,10 @@ In automation, it's not possible to see where the gestures are actually being pe
 `Show Taps/Touches`: By enabling this, you will see a small white dot for each tap. 
 `Pointer Location`: This one is even more useful as it shows several things. Firstly, it draws a line for each gesture, making it easier to understand what happened. Secondly, it displays the coordinates (x,y) of the hover, which helps us get the exact location of a specific point on the screen. Finally, it shows the distance performed for X and Y (dX, dY), which can be helpful in determining how far a gesture has moved.
 
-<p align="center" width="100%">
-    <img src="./images/1-show-taps-pointer-location.png" style="width: 50%" title='"Show taps" and "Pointer location" in "Developer tools"'>
-</p>
+<figure style="text-align: center;">
+    <img src="./images/1-show-taps-pointer-location.png" style="display: block; margin: 0 auto; width: 50%;" title='"Show taps" and "Pointer location" in "Developer tools"'>
+    <figcaption>Show taps" and "Pointer location" in "Developer tools"</figcaption>
+</figure>
 
 ## Get window and element rectangular / size
 Doing precise gestures on the display needs interaction  with coordination and calculations related to the positions of the elements or display size. 
