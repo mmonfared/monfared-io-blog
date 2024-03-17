@@ -242,9 +242,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will cover the **Flick (Fling)** gesture.
 
-**Previous:** [Part 4 - Scroll (Vertical/Horizontal/Search and Scroll Element IntoView)](https://blog.monfared.io/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview)
+*Previous:* [Part 4 - Scroll (Vertical/Horizontal/Search and Scroll Element IntoView)](https://blog.monfared.io/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview)
 
-**Next:** [Part 6 - Flick (Fling)](https://blog.monfared.io/gestures-in-appium-part6-flick-fling)
+*Next:* [Part 6 - Flick (Fling)](https://blog.monfared.io/gestures-in-appium-part6-flick-fling)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

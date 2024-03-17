@@ -246,9 +246,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will talk about the **Press and Hold (Long-Press)** gesture. 
 
-**Previous**: [Part 1 - History | Element/Display Rectangular | W3C ActionsAPI](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions)
+*Previous*: [Part 1 - History | Element/Display Rectangular | W3C ActionsAPI](https://blog.monfared.io/gestures-in-appium-part1-history-rectangular-w3c-actions)
 
-**Next**: [Part 3 - Press and Hold (Long Press)](https://blog.monfared.io/gestures-in-appium-part3-press-and-hold-long-press)
+*Next*: [Part 3 - Press and Hold (Long Press)](https://blog.monfared.io/gestures-in-appium-part3-press-and-hold-long-press)
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/
 

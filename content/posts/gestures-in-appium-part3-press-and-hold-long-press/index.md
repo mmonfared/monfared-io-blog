@@ -136,9 +136,9 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will cover the **Scroll** gesture.
 
-**Previous**: [Part 2 - Tap | Double Tap | Multi-finger Tap](https://blog.monfared.io/gestures-in-appium-part2-tap-double-tap-multi-finger)
+*Previous*: [Part 2 - Tap | Double Tap | Multi-finger Tap](https://blog.monfared.io/gestures-in-appium-part2-tap-double-tap-multi-finger)
 
-**Next**: [Part 4 - Scroll (Vertical/Horizontal/Search and Scroll Element IntoView)](https://blog.monfared.io/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview)
+*Next*: [Part 4 - Scroll (Vertical/Horizontal/Search and Scroll Element IntoView)](https://blog.monfared.io/gestures-in-appium-part4-scroll-vertical-horizontal-search-scroll-element-intoview)
 
 
 Follow me on LinkedIn: https://www.linkedin.com/in/mohammad-monfared/

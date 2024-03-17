@@ -275,7 +275,7 @@ Thank you for taking the time to read. If you enjoyed the post, please leave you
 
 In the next article, we will cover **Tap**, **Multi-Finger Tap**, and **Double-Tap** gestures.
 
-Next: [Part 2 - Tap | Double Tap | Multi-finger Tap](https://blog.monfared.io/gestures-in-appium-part2-tap-double-tap-multi-finger)
+*Next:* [Part 2 - Tap | Double Tap | Multi-finger Tap](https://blog.monfared.io/gestures-in-appium-part2-tap-double-tap-multi-finger)
 
 Follow me on LinkedIn: 
 https://www.linkedin.com/in/mohammad-monfared/
