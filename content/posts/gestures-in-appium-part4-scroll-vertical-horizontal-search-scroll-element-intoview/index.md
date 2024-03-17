@@ -413,13 +413,10 @@ driver.find_element(by=AppiumBy.ANDROID_U
 ```
 Here, we are utilizing the Android UiScrollable class again. Let's review the new methods:
 
-`setAsVerticalList()` Sets the direction of swipes to be vertical when performing scroll actions.
-
-`setAsHorizontalList()` Sets the direction of swipes to be horizontal when performing scroll actions.
-
-`scrollToEnd(maxSwipes)` Scrolls to the end of a scrollable layout element 
-
-`scrollToBeginning(maxSwipes)` Scrolls to the beginning of a scrollable layout element
+- `setAsVerticalList()` Sets the direction of swipes to be vertical when performing scroll actions.
+- `setAsHorizontalList()` Sets the direction of swipes to be horizontal when performing scroll actions.
+- `scrollToEnd(maxSwipes)` Scrolls to the end of a scrollable layout element 
+- `scrollToBeginning(maxSwipes)` Scrolls to the beginning of a scrollable layout element
 
 UiAutomator identifies the main scrollable element and scrolls to the beginning or end of the page. It is useful when you don't care about the contents and you just want to move the view into the most-top or most-down position.
 
