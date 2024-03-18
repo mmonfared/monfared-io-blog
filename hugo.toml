@@ -1,10 +1,12 @@
 baseURL = "https://blog.monfared.io/"
 title = "Mohammad's Blog"
+subtitle = "A Test Automation blog"
 author = "Mohammad Monfared"
 copyright = "Mohammad Monfared"
 paginate = 10
 languageCode = "en"
 theme = "tailwind"
+googleAnalytics = "G-QWE04RYHJ1"
 
 [params]
 # dir name of your blog content (default is `content/posts`).
